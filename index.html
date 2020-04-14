@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Reddy</title>
+
+    <script>
+        function openhome() { //função pra abrir outro elemento 
+            console.log("fredao ntc") //nome usado pra ver se entrou
+            let meuiframe = document.getElementById("meuiframe") //código pra buscar o "meuiframe"
+            //    let meuelemento = document.createElement("iframe")// função pra abrir um iframe(responsável por carregar outro html)
+            //    meuelemento.src = "inicio.html" //responsável pelo nome código do arquivo html 
+            //    meuelemento.style.height = "100%" //altura 
+            //    meuelemento.style.width = "100%"//largura
+
+            meuiframe.src = "inicio.html"
+        }
+
+
+        function openabout() { //função pra abrir outro elemento 
+            console.log("fredao ntc") //nome usado pra ver se entrou
+            let meuiframe = document.getElementById("meuiframe") //código pra buscar o "meuiframe"
+            //    let meuelemento = document.createElement("iframe")// função pra abrir um iframe(responsável por carregar outro html)
+            //    meuelemento.src = "sobre.html" //responsável pelo nome código do arquivo html 
+            //    meuelemento.style.height = "100%" //altura 
+            //    meuelemento.style.width = "100%"//largura
+
+            meuiframe.src = "sobre.html"
+        }
+
+        function openimportant() { //função pra abrir outro elemento 
+            console.log("fredao ntc") //nome usado pra ver se entrou
+            let meuiframe = document.getElementById("meuiframe") //código pra buscar o "meuiframe"
+            //    let meuelemento = document.createElement("iframe")// função pra abrir um iframe(responsável por carregar outro html)
+            //    meuelemento.src = "contato.html" //responsável pelo nome código do arquivo html 
+            //    meuelemento.style.height = "100%" //altura 
+            //    meuelemento.style.width = "100%"//largura
+
+            meuiframe.src = "importancia.html"
+        }
+
+        function opencontact() { //função pra abrir outro elemento 
+            console.log("fredao ntc") //nome usado pra ver se entrou
+            let meuiframe = document.getElementById("meuiframe") //código pra buscar o "meuiframe"
+            //    let meuelemento = document.createElement("iframe")// função pra abrir um iframe(responsável por carregar outro html)
+            //    meuelemento.src = "contato.html" //responsável pelo nome código do arquivo html 
+            //    meuelemento.style.height = "100%" //altura 
+            //    meuelemento.style.width = "100%"//largura
+
+            meuiframe.src = "contato.html"
+        }
+
+        function openimpact() { //função pra abrir outro elemento 
+            console.log("fredao ntc") //nome usado pra ver se entrou
+            let meuiframe = document.getElementById("meuiframe") //código pra buscar o "meuiframe"
+            //    let meuelemento = document.createElement("iframe")// função pra abrir um iframe(responsável por carregar outro html)
+            //    meuelemento.src = "contato.html" //responsável pelo nome código do arquivo html 
+            //    meuelemento.style.height = "100%" //altura 
+            //    meuelemento.style.width = "100%"//largura
+
+            meuiframe.src = "impacto.html"
+        }
+    </script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1 align="center">Robótica na Medicina</h1>
+    </header><br>
+    <nav class="d-flex justify-content-center align-items-center">
+        
+            <ul>
+                <li>
+                    <button class="btn btn-outline-info" onclick="openhome()">Início</button>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <button class="btn btn-outline-info" onclick="openabout()">Sobre</button>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <button class="btn btn-outline-info" onclick="openimportant()">Importância</button>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <button class="btn btn-outline-info" onclick="openimpact()">Impacto</button>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <button class="btn btn-outline-info" onclick="opencontact()">Contato</button>
+                </li>
+            </ul>
+        
+    </nav>
+    <br>
+    <article>
+        <iframe  id="meuiframe" src="inicio.html" width="100%" height="100%" frameborder="0"></iframe>
+
+
+
+    </article>
+    <br>
+    <footer>
+        <h6 id="Copyright">
+            Copyright &copy - Todos os direitos reservados
+        </h6>
+    </footer>
+    <script>
+        document.getElementById("Copyright").innerHTML += " " + new Date().getFullYear()
+
+    </script>
+
+
+</body>
+
+</html>

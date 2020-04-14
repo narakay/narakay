@@ -1,0 +1,57 @@
+header{
+    background-color:white;
+    height:100px;
+    border-radius:20px 20px;
+    margin-top: 30px;
+}
+
+
+
+nav{
+    background-color: white;
+    height:60px;
+    border-radius:20px 20px;
+    padding-top: 11px;
+}
+
+article{
+    background-color: white;
+    height:390px;
+    border-radius:20px 20px;
+}
+
+footer{
+    background-color: white;
+    height:22px;
+    border-radius:20px 20px;
+}
+
+body{
+    position:relative;
+    height: 80px; width:800px;
+    left:202px;
+    background-image:url("FREDASSO.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+}
+
+nav li{
+    list-style: none;
+    display:inline-block;
+    
+
+}
+nav ul{
+    display:inline-block;
+
+}
+
+h1{
+    position: relative;
+    top:30px;
+}
+
+h6{
+    text-align: center;   
+}
+
